@@ -1,0 +1,23 @@
+@import "./helpers.scss";
+
+@font-face {
+    font-family: 'yame';
+    src: url('../fonts/yame.ttf')  format('truetype');
+}
+body {
+    color: olive;
+}
+.imageplace {
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/logo.png');
+}
+.photo {
+    width: 250px;
+    height: 250px;
+    background-image: url('../assets/sv.jpg');
+}
+.logo {
+    width: 250px;
+    height: auto;
+}

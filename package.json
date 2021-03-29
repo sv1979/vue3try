@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server",
+    "dev": "webpack --env.dev -w",
     "build": "webpack --env.prod"
   },
   "dependencies": {
@@ -12,9 +12,12 @@
     "css-loader": "^4.2.2",
     "file-loader": "^6.0.0",
     "mini-css-extract-plugin": "^0.11.0",
+    "sass": "^1.32.8",
+    "sass-loader": "10.1.1",
+    "style-loader": "^2.0.0",
     "url-loader": "^4.0.0",
     "vue-loader": "^16.0.0-beta.5",
-    "webpack": "^4.42.1",
+    "webpack": "^4.46.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   }

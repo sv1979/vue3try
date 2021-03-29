@@ -1,7 +1,9 @@
 <template>
-  <img src="./logo.png">
-  <h1>Hello Vue 3!</h1>
+  <img src="./assets/logo.png" class="logo">
+  <h1>Hello Vue 3!/!=e</h1>
   <button @click="inc">Clicked {{ count }} times.</button>
+  <div class="imageplace"></div>
+  <div class="photo"></div>
 </template>
 
 <script>
@@ -23,10 +25,5 @@ export default {
 </script>
 
 <style scoped>
-img {
-  width: 200px;
-}
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 </style>
