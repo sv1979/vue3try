@@ -1,29 +1,16 @@
 <template>
-  <img src="./assets/logo.png" class="logo">
-  <h1>Hello Vue 3!/!=e</h1>
-  <button @click="inc">Clicked {{ count }} times.</button>
-  <div class="imageplace"></div>
-  <div class="photo"></div>
+  <wrapper />
 </template>
 
 <script>
-import { ref } from 'vue'
+import { defineComponent } from "vue";
+import Wrapper from "./components/Wrapper.vue";
 
-export default {
-  setup() {
-    const count = ref(0)
-    const inc = () => {
-      count.value++
-    }
-
-    return {
-      count,
-      inc
-    }
-  }
-}
+export default defineComponent({
+  name: "App",
+  components: { Wrapper },
+});
 </script>
 
 <style scoped>
-
 </style>
